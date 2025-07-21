@@ -64,9 +64,9 @@ public class Main {
         int passengers = 85;
         if (passengers < seating) {
             System.out.println(" В вагоне есть свободные места");
-        }else if (passengers < totalCapacity) {
+        } else if (passengers < totalCapacity) {
             System.out.println(" В Вагоне остались только стоячие места");
-        }else {
+        } else {
             System.out.println(" Вагон полностью забит");
         }
         System.out.println("Задача 7");
@@ -75,11 +75,9 @@ public class Main {
         int three = 7;
         if (one >= two && one >= three) {
             System.out.println("Наибольшее число: " + one);
-        }
-        else if (two >= one && two >= three) {
+        } else if (two >= one && two >= three) {
             System.out.println("Наибольшее число: " + two);
-        }
-        else {
+        } else {
             System.out.println("Наибольшее число: " + three);
         }
     }
